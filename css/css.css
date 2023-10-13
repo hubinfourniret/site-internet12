@@ -34,3 +34,7 @@
 .texte {
     margin-left: 2em;
 }
+.input {
+    display: block;
+    margin-bottom: 10px; /* Ajoute un espacement entre les champs de saisie */
+}
