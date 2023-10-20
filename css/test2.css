@@ -38,9 +38,9 @@ a {
     margin: auto;
     padding: 2rem;
 }
-
 #div1 {
     display: none;
+    visibility: hidden;
 }
 /* il faut trouver comment faire pour que le menu se mette en colone*/
 @media (max-width: 600px) {
