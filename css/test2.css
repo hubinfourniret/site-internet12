@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-header {
+    background: rgb(5,34,32);
+    color: #ffffff;
+}
+.body {
+    background: #cff0ee;
+}
+main {
+    margin-left: 2em;
+}
+.input {
+    display: block;
+    margin-bottom: 10px; /* Ajoute un espacement entre les champs de saisie */
+}
+/* Menu */
+a {
+    text-decoration: none; /* Supprime le soulignement */
+    color: #ffffff;
+}
+.menu-ul{
+    list-style: none; /* Supprimez les puces de la liste */
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.menu-nav {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+
+#div1 {
+    display: none;
+}
+/* il faut trouver comment faire pour que le menu se mette en colone*/
+@media (max-width: 600px) {
+    .menu-ul{
+        list-style: none; /* Supprimez les puces de la liste */
+        display: flex;
+        flex: 1 1 40rem;
+        justify-content: space-around;
+        align-items: start;
+        list-style: none;
+        flex-direction: column;
+    }
+    #img2{
+        position:absolute;
+        left:10px;
+        top:10px;
+        width:60px;
+      }
+    #btna1{
+        position:absolute;
+        top:0px;
+        background:transparent;
+        width:75px;
+        color:transparent;
+        padding-top:5px;
+        padding-bottom:5px;
+        font-family:Georgia, serif;
+        font-size:15px;
+        border:2.5px solid transparent;
+        border-radius:100px;
+        cursor:pointer;
+        transition:.6s;
+      }
+    #divaa1:hover > #btna1{
+        top:90px;
+        color:black;
+        background:dimgrey;
+        padding-bottom:5px;
+      }
+    #btna2{
+        position:absolute;
+        top:0px;
+        background:transparent;
+        width:75px;
+        color:transparent;
+        padding-top:5px;
+        padding-bottom:5px;
+        font-family:Georgia, serif;
+        font-size:15px;
+        border:2.5px solid transparent;
+        border-radius:100px;
+        cursor:pointer;
+        transition:.6s;
+      }
+    #divaa1:hover > #btna2{
+        top:140px;
+        color:black;
+        background:dimgrey;
+        padding-bottom:5px;
+      }
+    #btna3{
+        position:absolute;
+        top:0px;
+        background:transparent;
+        width:75px;
+        color:transparent;
+        padding-top:5px;
+        padding-bottom:5px;
+        font-family:Georgia, serif;
+        font-size:15px;
+        border:2.5px solid transparent;
+        border-radius:100px;
+        cursor:pointer;
+        transition:.6s;
+      }
+    #divaa1:hover > #btna3{
+        top:190px;
+        color:black;
+        background:dimgrey;
+        padding-bottom:5px;
+      }
+}
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content li {
+    display: block;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+/* menu déroulant*/

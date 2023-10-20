@@ -1,54 +1,72 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.main-header {
-    background: rgb(5,34,32);
-    color: #ffffff;
-}
-
-
-/* Menu */
-ul.menu {
-    list-style: none; /* Supprimez les puces de la liste */
-    display: flex;
-    flex: 1 1 40rem;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-}
-.main-nav {
-    min-height: 10vh;
-    display: flex;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-    padding: 2rem;
-}
-a {
-    text-decoration: none; /* Supprime le soulignement */
-    color: #ffffff;
-}
-
-
-
-
-
-
-
-
-.body {
-    background: #cff0ee;
-}
-@media (max-width: 1000px) {
-    .nav {
-        min-height: 10vh;
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        margin: auto;
-        padding: 2rem;
-
-    }
-}
+body{
+    background:rgb(0, 45, 60);
+  }
+  #img2{
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:60px;
+  }
+#btna1{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+#divaa1:hover > #btna1{
+    top:90px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+#btna2{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+#divaa1:hover > #btna2{
+    top:140px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+#btna3{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+#divaa1:hover > #btna3{
+    top:190px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
