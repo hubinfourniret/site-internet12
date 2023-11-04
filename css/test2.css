@@ -40,24 +40,19 @@ a {
 }
 #div1 {
     display: none;
-    visibility: hidden;
 }
 /* il faut trouver comment faire pour que le menu se mette en colone*/
 @media (max-width: 600px) {
-    .menu-ul{
-        list-style: none; /* Supprimez les puces de la liste */
-        display: flex;
-        flex: 1 1 40rem;
-        justify-content: space-around;
-        align-items: start;
-        list-style: none;
-        flex-direction: column;
+    #div1 {
+      display: flex;
+
     }
     #img2{
         position:absolute;
         left:10px;
         top:10px;
         width:60px;
+        padding: 20%;
       }
     #btna1{
         position:absolute;
@@ -122,13 +117,19 @@ a {
         background:dimgrey;
         padding-bottom:5px;
       }
+    .menu-ul{
+      display: none;
+    }
+    .menu-nav {
+      display: none;
+    }
 }
 nav ul li a {
     display: block;
     padding: 10px;
     text-decoration: none;
   }
-  
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -145,6 +146,7 @@ nav ul li a {
 .dropdown:hover .dropdown-content {
     display: block;
   }
+
 
 
 /* menu déroulant*/
