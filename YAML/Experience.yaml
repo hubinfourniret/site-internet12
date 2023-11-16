@@ -1,0 +1,26 @@
+titre: "Document"
+Experience:
+  - title: "Stage chez Charal à Flers"
+    description: "Maintenance et gestion du matériel"
+    date: "11/2022"
+
+  - title: "Stage chez Fast Point à Cherbourg"
+    description: "Développement en Python"
+    date: "01/2022"
+
+  - title: "Stage chez Micro Matic à Domfront en Poiraie"
+    description: "Micro-informatique"
+    date: "06/2021"
+
+  - title: "Stage chez Génération Normandie à Flers"
+    description: "Gestion du matériel et micro-informatique"
+    date: "12/2021"
+
+  - title: "CDD Panier des Gourmets"
+    description: "Charcuterie/traiteur, aide laboratoire"
+    date: "08/2022"
+
+  - title: "Service de table lors d'événement"
+    date: "07/2022"
+
+CV: "image/CV.pdf"

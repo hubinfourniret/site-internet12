@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../css/css.css">
+</head>
+<body class="body">
+    <header class="main-header">
+		<nav class="menu-nav">
+            <ul class="menu-ul">
+                <li><a href="#Accueil">Accueil</a></li>
+                <li><a href="#A_propos">A propos</a></li>
+                <li><a href="#Competences">Compétences</a></li>
+                <li><a href="#Experience">Expérience</a></li>
+                <li><a href="#Formation">Formation</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+	</header>
+    <main>
+        <div>
+            <a id="Accueil"></a>
+            <h1>Accueil</h1>
+            <img src="./../image/photo.png" alt="photo de moi" class="photo">
+            <p>Hubin FOURNIRET</p>
+        </div>
+        <div>
+            <a id="A_propos"></a>
+            <h1>À propos</h1>
+        </div>
+        <div>
+            <a id="Competences"></a>
+            <h1>Compétences</h1>
+        </div>
+        <div>
+            <a id ="Experience"></a>
+            <h1>Expérience</h1>
+            <ul>
+                <li>Stage chez Charal à Flers, maintenance et gestion du matériel (11/2022)</li>
+                <li>Stage chez Fast Point à Cherbourg, développement en Python (01/2022)</li>
+                <li>Stage chez Micro Matic à Domfront en Poiraie, micro-informatique (06/2021)</li>
+                <li>Stage chez Génération Normandie à Flers, gestion du matériel et micro-informatique (12/2021)</li>
+                <li>CDD Panier des Gourmets, charcuterie/traiteur, aide laboratoire (08/2022)</li>
+                <li>Service de table lors d'événement (07/2022)</li>
+            </ul>    
+            <a href="image/CV.pdf">CV</a>
+        </div>
+        <div>
+            <a id="Formation"></a>
+            <h1>Formation</h1>
+            <ul>
+                <li>Mention bien au Baccalauréat professionnel Système Numérique option Réseaux Informatique et Systèmes Communicants au lycée Charles Tellier à Condé en Normandie</li>
+                <li>En cours de formation au Brevet de technicien supérieur Services informatiques aux organisations au lycée Saint Ursule à Caen</li>
+            </ul>
+            <a href="image/CV.pdf">CV</a>
+        </div>
+        <div>
+            <a id="Contact"></a>
+            <h1>Contact</h1>
+            <form action="traitement.php" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required class="input">
+                <label for="email">Adresse de courriel :</label>
+                <input type="email" id="email" name="email" required class="input">
+                <label for="objet">Objet du message :</label>
+                <input type="text" id="objet" name="objet" required class="input">
+                <label for="message">Contenu du message :</label>
+                <textarea id="message" name="message" required class="input"></textarea>
+                <!-- Ajoutez un composant Captcha ici, par exemple reCAPTCHA -->
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
