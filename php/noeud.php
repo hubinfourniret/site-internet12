@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <?php
-require './../YAML/vendor/autoload.php'; // Assurez-vous d'ajuster le chemin si nécessaire
+require './../yaml1/vendor/autoload.php'; // Assurez-vous d'ajuster le chemin si nécessaire
 use Symfony\Component\Yaml\Yaml;
 ?>
 <head>
