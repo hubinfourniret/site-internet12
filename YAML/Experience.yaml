@@ -21,6 +21,7 @@ Experience:
     date: "08/2022"
 
   - title: "Service de table lors d'événement"
+    description: "Serveur lors d'évenement"
     date: "07/2022"
 
-CV: "image/CV.pdf"
+CV: "./../image/CV.pdf"

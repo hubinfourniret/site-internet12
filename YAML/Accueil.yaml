@@ -1,0 +1,6 @@
+Accueil:
+  title: "Accueil"
+  image: "./../image/photo.png"
+  alt: "photo de moi"
+  class: "photo"
+  name: "Hubin FOURNIRET"
