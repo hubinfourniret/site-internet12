@@ -25,60 +25,17 @@ use Symfony\Component\Yaml\Yaml;
 	</header>
     <main>
         <div id="Accueil">
-        <?php
-            // Chargement du fichier YAML
-            $data = Yaml::parseFile('./../YAML/Accueil.yaml');
-
-            // Accès aux données
-            $experience = $data['Accueil'];
-
-            // Affichage des données
-            echo '<h1>' . $data['Accueil']['title'] . '</h1>';
-            echo '<img src="' . $data['Accueil']['image'] . '" alt="' . $data['Accueil']['alt'] . '" class="' . $data['Accueil']['class'] . '">';
-            echo '<p>' . $data['Accueil']['name'] . '</p>';
-            ?>
-        <div id="Exeperience">
             <?php
-            // Chargement du fichier YAML
-            $data = Yaml::parseFile('./../YAML/Experience.yaml');
-
-            // Accès aux données
-            $experience = $data['Experience'];
-            $cvLink = $data['CV'];
-
-            // Affichage des données
-            echo "<h1>Expérience</h1>";
-            echo "<ul>";
-            foreach ($experience as $item) {
-                echo "<li>";
-                echo "<strong>" . $item['title'] . "</strong><br>";
-                echo "<Description:>" . $item['description'] . "<br>";
-                echo "<Date:>" . $item['date'] . "<br>";
-                echo "</li>";
-            }
-            echo "</ul>";
-            echo "<a href='$cvLink'>CV</a>";
+            require("Accueil.php");
             ?>
-            </div>
-            <div id="Formation">
+        <div id="Experience">
             <?php
-            // Chargement du fichier YAML
-            $data = Yaml::parseFile('./../YAML/Formation.yaml');
-
-            // Accès aux données
-            $experience = $data['Formation'];
-            $cvLink = $data['CV'];
-
-            // Affichage des données
-            echo "<h1>Formation</h1>";
-            echo "<ul>";
-            foreach ($experience as $item) {
-                echo "<li>";
-                echo "<strong>" . $item['title'] . "</strong><br>";
-                echo "</li>";
-            }
-            echo "</ul>";
-            echo "<a href='$cvLink'>CV</a>";
+            require("Experience.php");
+            ?>
+        </div>
+        <div id="Formation">
+            <?php
+            require("Formation.php")
             ?>
         </div>
     </main>
