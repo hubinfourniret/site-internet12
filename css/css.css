@@ -73,7 +73,6 @@ nav ul li a {
     display: block;
   }
 
-
-/* menu déroulant*/
-
-
+ul {
+    list-style: none;
+}
