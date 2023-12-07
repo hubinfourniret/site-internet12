@@ -1,1 +1,12 @@
-Competences:
+title : "Compétence"
+  - title: "HTML"
+    stars:
+      - "./../image/star.png"
+      - "./../image/star.png"
+      - "./../image/star.png"
+  
+  - title: "sql"
+    stars:
+      - "./../image/star.png"
+      - "./../image/star.png"
+      - "./../image/star.png"

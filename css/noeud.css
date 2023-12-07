@@ -1,35 +1,40 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .main-header {
-    background: rgb(5,34,32);
+    background: rgb(5, 34, 32);
     color: #ffffff;
 }
+
 .body {
     background: #cff0ee;
 }
+
 main {
     margin-left: 2em;
 }
+
 .input {
     display: block;
     margin-bottom: 10px; /* Ajoute un espacement entre les champs de saisie */
 }
-/* Menu */
+
 a {
     text-decoration: none; /* Supprime le soulignement */
     color: #ffffff;
 }
-.menu-ul{
+
+.menu-ul {
     list-style: none; /* Supprimez les puces de la liste */
     display: flex;
     flex: 1 1 40rem;
     justify-content: space-around;
     align-items: center;
-    list-style: none;
 }
+
 .menu-nav {
     min-height: 10vh;
     display: flex;
@@ -38,174 +43,40 @@ a {
     margin: auto;
     padding: 2rem;
 }
-#menuToggle{
-    display: none
+
+#menuToggle {
+    display: none;
 }
-/* il faut trouver comment faire pour que le menu se mette en colone*/
-@media (max-width: 600px) {
-    .menu-ul{
-        display: none;
-    }
-    #menuToggle{
-    display: block;
-    position: relative;
-    top: 1%;
-    left: 1%;
-    
-    z-index: 1;
-    
-    -webkit-user-select: none;
-    user-select: none;
-    }
 
-    #menuToggle a{
-    text-decoration: none;
-    color: #232323;
-    
-    transition: color 0.3s ease;
-    }
-
-    #menuToggle a:hover{
-    color: #ffffff;
-    }
-
-
-    #menuToggle input{
-    display: block;
-    width: 40px;
-    height: 32px;
-    position: absolute;
-    top: -7px;
-    left: -5px;
-    
-    cursor: pointer;
-    
-    opacity: 0; /* hide this */
-    z-index: 2; /* and place it over the hamburger */
-    
-    -webkit-touch-callout: none;
-    }
-
-    /*
-    * Just a quick hamburger
-    */
-    #menuToggle span{
-    display: block;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-    
-    background: #cdcdcd;
-    border-radius: 3px;
-    
-    z-index: 1;
-    
-    transform-origin: 4px 0px;
-    
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                opacity 0.55s ease;
-    }
-
-    #menuToggle span:first-child
-    {
-    transform-origin: 0% 0%;
-    }
-
-    #menuToggle span:nth-last-child(2)
-    {
-    transform-origin: 0% 100%;
-    }
-
-    /* 
-    * Transform all the slices of hamburger
-    * into a crossmark.
-    */
-    #menuToggle input:checked ~ span
-    {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
-    }
-
-    /*
-    * But let's hide the middle one.
-    */
-    #menuToggle input:checked ~ span:nth-last-child(3)
-    {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-    }
-
-    /*
-    * Ohyeah and the last one should go the other direction
-    */
-    #menuToggle input:checked ~ span:nth-last-child(2)
-    {
-    transform: rotate(-45deg) translate(0, -1px);
-    }
-
-    /*
-    * Make this absolute positioned
-    * at the top left of the screen
-    */
-    #menu
-    {
-    position: absolute;
-    width: 300px;
-    margin: -100px 0 0 -50px;
-    padding: 50px;
-    padding-top: 125px;
-    
-    background: #ededed;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
-    
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
-    
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-    }
-
-    #menu li
-    {
-    padding: 10px 0;
-    font-size: 22px;
-    }
-
-    /*
-    * And let's slide it in from the left
-    */
-    #menuToggle input:checked ~ ul
-    {
-    transform: none;
-    }
-}
 nav ul li a {
     display: block;
     padding: 10px;
     text-decoration: none;
-  }
-  
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
+}
+
 .dropdown-content li {
     display: block;
-  }
-  
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
-  }
+}
 
 ul {
     list-style: none;
+}
+
+.etoile {
+    width: 20px; /* Définir la largeur souhaitée */
+    height: auto; /* Garder le rapport hauteur/largeur d'origine */
+    margin-right: 5px; /* Ajouter une marge entre les étoiles (ajustez selon vos besoins) */
 }
