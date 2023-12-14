@@ -1,12 +1,10 @@
-title : "Compétence"
-  - title: "HTML"
-    stars:
-      - "./../image/star.png"
-      - "./../image/star.png"
-      - "./../image/star.png"
-  
-  - title: "sql"
-    stars:
-      - "./../image/star.png"
-      - "./../image/star.png"
-      - "./../image/star.png"
+- nom: HTML
+  niveau: 4
+- nom: SQl
+  niveau: 0
+- nom: css
+  niveau: 4
+- nom: php
+  niveau: 2
+- nom: réseau
+  niveau : 4
