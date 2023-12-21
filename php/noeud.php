@@ -27,7 +27,7 @@
         </section>
         <section id="Competences">
             <?php
-            require("competences.php")
+            require("Competences.php")
             ?>
         </section>
         <section id="Experience">

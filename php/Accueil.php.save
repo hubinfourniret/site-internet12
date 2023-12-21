@@ -1,6 +1,8 @@
+require "./../yaml1/vendor/autoload.php"; // Assurez-vous d'ajuster le chemin si nécessaire
+use Symfony.lock;
 <?php
 require "./../yaml1/vendor/autoload.php"; // Assurez-vous d'ajuster le chemin si nécessaire
-use Symfony\Component\Yaml\Yaml;
+use Symfony.lock;
 // Chargement du fichier YAML
 $data = Yaml::parseFile('./../YAML/Accueil.yaml');
 
@@ -9,7 +11,6 @@ $experience = $data['Accueil'];
 
 // Affichage des données*
 echo '<h1>' . $data['Accueil']['title'] . '</h1>';
-echo '<div class="para"><img src="' . $data['Accueil']['image'] . '" class="' . $data['Accueil']['class'] .'">';
+echo '<img src="' . $data['Accueil']['image'] . '" class="' . $data['Accueil']['class'] .'">';
 echo '<p>' . $data['Accueil']['name'] . '</p>';
-echo'<p>' . $data['Accueil']['présentation'] .'</p></div>';
 ?>
