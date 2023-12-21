@@ -21,24 +21,19 @@
 	</header>
     <main>
         <section id="Accueil">
-            <?php
-            require("Accueil.php");
-            ?>
+            <?php require("Accueil.php");?>
         </section>
+	<section id="A_propos">
+	    <?php require("A_propos.php");?>
+	</section>
         <section id="Competences">
-            <?php
-            require("Competences.php")
-            ?>
+            <?php require("Competences.php");?>
         </section>
         <section id="Experience">
-            <?php
-            require("Experience.php");
-            ?>
+            <?php require("Experience.php");?>
         </section>
         <section id="Formation">
-            <?php
-            require("Formation.php")
-            ?>
+            <?php require("Formation.php");?>
         </section>
     </main>
 </body>
