@@ -18,6 +18,9 @@ div a {
 
 .main-header {
     background: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .para {
@@ -27,7 +30,7 @@ div a {
 }
 
 .body {
-    background: #fffff;
+    background: #ffffff;
 }
 
 main {
@@ -37,6 +40,10 @@ main {
 
 a.main {
     color: #000000;
+}
+
+section {
+    height: 100vh;
 }
 
 .menu-ul {
