@@ -23,7 +23,7 @@ foreach ($data as $item) {
     }
 $html .="</div></div>";
 }
-$html .="<p>" . $item['pix'] . "</p>";
+$html .="<p> Score pix  559</p>";
 $html .= "</div>";
 echo $html;
 ?>
