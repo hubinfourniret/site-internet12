@@ -18,5 +18,5 @@ foreach ($experience as $item) {
   echo "</li>";
 }
 echo "</ul>";
-echo "<a href='$cvLink'>CV</a></div>";
+echo "<a href='$cvLink'>Lien vers mon CV</a></div>";
 ?>

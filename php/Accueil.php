@@ -11,10 +11,5 @@ $experience = $data['Accueil'];
 echo '<h1>' . $data['Accueil']['title'] . '</h1>';
 echo '<div class="para"><img src="' . $data['Accueil']['image'] . '" class="' . $data['Accueil']['class'] .'">';
 echo '<p>' . $data['Accueil']['name'] . '</p>';
-<<<<<<< HEAD
 echo'<p>' . $data['Accueil']['présentation'] .'</p></div>';
 ?>
-=======
-echo '<p>' . $data['Accueil']['présentation']. '</p>';
-?>
->>>>>>> 941710f2a50527e329c0974dc109ced9593958cb

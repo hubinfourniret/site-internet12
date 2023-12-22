@@ -8,13 +8,16 @@
     text-decoration: none;
 }
 
+div a {
+    color: #000;
+}
+
 .listeexperience {
     margin-left: 1em;
 }
 
 .main-header {
     background: #000;
-    color: #ffffff;
 }
 
 .para {
@@ -55,6 +58,7 @@ a.main {
 nav ul li a {
     display: block;
     padding: 10px;
+    color: #ffffff;
 }
 
 .etoile {
