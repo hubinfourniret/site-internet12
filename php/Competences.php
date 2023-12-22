@@ -21,8 +21,9 @@ foreach ($data as $item) {
             $html .= "<img src='" . $star_vide . "' class='etoile' alt='Star'>";
         }
     }
-$html .="<p>" . $item['pix'] . "</p></div></div>";
+$html .="</div></div>";
 }
+$html .="<p>" . $item['pix'] . "</p>";
 $html .= "</div>";
 echo $html;
 ?>
