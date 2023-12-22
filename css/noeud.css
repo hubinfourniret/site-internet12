@@ -12,6 +12,9 @@ div a {
     color: #000;
 }
 
+section {
+    margin-top: 10vh;
+}
 .listeexperience {
     margin-left: 1em;
 }
