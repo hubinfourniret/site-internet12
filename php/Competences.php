@@ -12,8 +12,7 @@ $star_vide = "./../image/star_vide.png";
 $html .= "<h1>" . 'Compétence'. "</h1>";
 $html .= "<div class='content'>";
 foreach ($data as $item) {
-    $html .= "<div class='position para'> <p class='text'>" . $item['nom']. "</p>";
-    $html .= "<div>";
+    $html .= "<div class='position para'> <p class='text'>" . $item['nom']. "</p><div>";
     for($i=1; $i<=5; $i++){
         if($i<=$item["niveau"]){
             $html .= "<img src='" . $star . "' class='etoile'  alt='Star'>";

@@ -11,7 +11,7 @@ $cvLink = $data['CV'];
 echo "<h1>Expérience</h1>";
 echo '<div class="para"><ul class="ulexperience" >';
 foreach ($experience as $item) {
-  echo '<li>';
+  echo "<li>";
   echo "<strong>" . $item['title'] . "</strong><br>";
   echo "<Description:>" . $item['description'] . "<br>";
   echo "<Date:>" . $item['date'] . "<br>";

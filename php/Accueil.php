@@ -8,8 +8,8 @@ $data = Yaml::parseFile('./../YAML/Accueil.yaml');
 $experience = $data['Accueil'];
 
 // Affichage des données*
-echo '<h1>' . $data['Accueil']['title'] . '</h1>';
-echo '<div class="para"><img src="' . $data['Accueil']['image'] . '" class="' . $data['Accueil']['class'] .'">';
-echo '<p>' . $data['Accueil']['name'] . '</p>';
-echo'<p>' . $data['Accueil']['présentation'] .'</p></div>';
+echo "<h1>" . $data['Accueil']['title'] . "</h1>";
+echo "<div class='para'><img src='" . $data['Accueil']['image'] . "' class='" . $data['Accueil']['class'] ."'>";
+echo "<p>" . $data['Accueil']['name'] . "</p>";
+echo"<p>" . $data['Accueil']['présentation'] ."</p></div>";
 ?>
