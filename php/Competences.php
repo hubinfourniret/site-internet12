@@ -22,7 +22,7 @@ foreach ($data as $item) {
         }
     }
 }
-$html .="<p class='para'>Score pix  559</p></div></div>";
+$html .="<p >Score pix  559</p></div></div>";
 $html .= "</div>";
 echo $html;
 ?>
