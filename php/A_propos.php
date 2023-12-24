@@ -13,15 +13,15 @@ $html = "<h1>" . $data['title'] . "</h1>";
 //    $html .= "<p>" . $ligne . "</p>"; 
 //}
 $html .= "<div class='para'>";
-$html .= "<p class='alinéa'>" . $data['paragraphe'][0] . "</p><br>";
-$html .= "<p class='alinéa'>" . $data['paragraphe'][1] . "</p><br>";
+$html .= "<p>" . $data['paragraphe'][0] . "</p><br>";
+$html .= "<p>" . $data['paragraphe'][1] . "</p><br>";
 $html .= "<p class='alinéa'>" . $data['paragraphe'][2] . "</p>";
 $html .= "<p>" . $data['paragraphe'][3] . "</p>";
 $html .= "<p>" . $data['paragraphe'][4] . "</p>";
 $html .= "<p>" . $data['paragraphe'][5] . "</p><br>";
 $html .= "<p class='alinéa'>" . $data['paragraphe'][6] . "</p>";
 $html .= "<p>" . $data['paragraphe'][7] . "</p><br>";
-$html .= "<p class='alinéa'>" . $data['paragraphe'][8] . "</p>";
+$html .= "<p>" . $data['paragraphe'][8] . "</p>";
 $html .= "</div>";
 echo $html
 ?>
