@@ -9,7 +9,7 @@ $html = "<h1>" . $data['title'] . "</h1>";
 
 // Affichage de l'accroche
 $html .= "<div class='para'>";
-$html .= "<br>" . $data['debut-accroche'] . "</br>";
+$html .= "<p>" . $data['debut-accroche'] . "</p><br>";
 foreach ($data['paragraphe'] as $ligne) {
     $html .= "<p>" . $ligne . "</p>"; 
 }
