@@ -13,7 +13,7 @@ $html .= "<div class='para'>";
 //foreach ($data['paragraphe'] as $ligne) {
 //    $html .= "<p>" . $ligne . "</p>"; 
 //}
-echo "<p>" . $data['paragraphe'][2]
+echo "<p>" . $data['paragraphe'][2] . "</p>";
 $html .= "</div>";
 echo $html
 ?>
