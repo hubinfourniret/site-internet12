@@ -20,7 +20,7 @@ $html .= "<p>" . $data['paragraphe'][4] . "</p>";
 $html .= "<p>" . $data['paragraphe'][5] . "</p><br>";
 $html .= "<p>" . $data['paragraphe'][6] . "</p>";
 $html .= "<p>" . $data['paragraphe'][7] . "</p><br>";
-$html .= "<p>" . $data['paragraphe'][8] . "</p>";
+$html .= "<p>" . $data['paragraphe'][1] . "</p>";
 $html .= "</div>";
 echo $html
 ?>
