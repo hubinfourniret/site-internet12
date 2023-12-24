@@ -8,6 +8,10 @@ $data = Yaml::parseFile('./../YAML/A_propos.yaml');
 $html = "<h1>" . $data['title'] . "</h1>";
 
 // Affichage de l'accroche
+//$html .= "<p>" . $data['debut-accroche'] . "</p><br>";
+//foreach ($data['paragraphe'] as $ligne) {
+//    $html .= "<p>" . $ligne . "</p>"; 
+//}
 $html .= "<div class='para'><p>" . $data['paragraphe'][1] . "</p><br>";
 $html .= "<p>" . $data['paragraphe'][2] . "</p>";
 $html .= "<p>" . $data['paragraphe'][3] . "</p>";
@@ -28,7 +32,3 @@ echo $html
 
 
 
-//$html .= "<p>" . $data['debut-accroche'] . "</p><br>";
-//foreach ($data['paragraphe'] as $ligne) {
-//    $html .= "<p>" . $ligne . "</p>"; 
-//}
