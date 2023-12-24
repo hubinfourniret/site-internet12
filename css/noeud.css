@@ -18,12 +18,11 @@ div a {
 }
 
 .main-header {
-    min-height: 10vh;
     background: #000;
     position: fixed;
     top: 0;
     width: 100%;
-    max-height: 20vh;
+    height: 43px;
 }
 
 .para {
