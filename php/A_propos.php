@@ -15,7 +15,7 @@ echo "<h1>" . $title . "</h1>";
 
 // Affichage de l'accroche
 echo "<div class='para'>";
-echo "<p>" . $title . "</p><br>";
+echo "<p>" . $data['bien'] . "</p><br>";
 foreach ($accroche as $paragraphe) {
     echo "<p>" . $paragraphe . "</p>";
 }
