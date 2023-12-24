@@ -20,5 +20,4 @@ foreach ($experience as $item) {
 }
 $html .= "</ul>";
 $html .= "<a href='$cvLink'>Lien vers mon CV</a></div>";
-echo $html
 ?>
