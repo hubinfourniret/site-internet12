@@ -5,8 +5,8 @@ use Symfony\Component\Yaml\Yaml;
 $data = Yaml::parseFile('./../YAML/A_propos.yaml');
 
 // Accès aux données
-$experience = $data['A_propos'];
 $title = $data['title'];
+$bienvenue = $data['bien'];
 $accroche = $data['accroche'];
 
 // Affichage des données
@@ -14,7 +14,7 @@ echo "<h1>" . $title . "</h1>";
 
 // Affichage de l'accroche
 echo "<div class='para'>";
-echo "<br>" . $data['bien'] . "</br>";
+echo "<br>" . $bienvenue . "</br>";
 foreach ($accroche as $paragraphe) {
     echo "<p>" . $paragraphe . "</p>";
 }
