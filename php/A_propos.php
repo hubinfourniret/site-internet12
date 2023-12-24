@@ -12,7 +12,6 @@ $accroche = $data['accroche'];
 
 // Affichage des données
 echo "<h1>" . $title . "</h1>";
-
 echo "<p>" . $accroche . "</p>";
 // Affichage de l'accroche
 //echo "<div class='para'><p>";
