@@ -17,7 +17,7 @@ echo "<h1>" . $title . "</h1>";
 echo "<div class='para'>";
 echo "<p>" . $data['bien'] . "</p><br>";
 foreach ($accroche as $paragraphe) {
-    echo "<BLOCKQUOTE>" . $paragraphe . "</BLOCKQUOTE>";
+    echo "<p>" . $paragraphe . "</p>";
 }
 echo "</div>";
 ?>
