@@ -9,8 +9,12 @@ $html = "<h1>" . $data['title'] . "</h1>";
 
 // Affichage de l'accroche
 $html .= "<div class='para'><p>" . $data['paragraphe'][1] . "</p><br>";
-$html .= "<p>" . $data['paragraphe'][2,3,4,5] . "</p><br>";
-$html .= "<p>" . $data['paragraphe'][6,7] . "</p><br>";
+$html .= "<p>" . $data['paragraphe'][2] . "</p>";
+$html .= "<p>" . $data['paragraphe'][3] . "</p>";
+$html .= "<p>" . $data['paragraphe'][4] . "</p>";
+$html .= "<p>" . $data['paragraphe'][5] . "</p><br>";
+$html .= "<p>" . $data['paragraphe'][6] . "</p>";
+$html .= "<p>" . $data['paragraphe'][7] . "</p><br>";
 $html .= "<p>" . $data['paragraphe'][8] . "</p>";
 $html .= "</div>";
 echo $html
