@@ -5,14 +5,14 @@ use Symfony\Component\Yaml\Yaml;
 $data = Yaml::parseFile('./../YAML/A_propos.yaml');
 
 // Affichage des données
-echo "<h1>" . $data['title'] . "</h1>";
+$html .= "<h1>" . $data['title'] . "</h1>";
 
 // Affichage de l'accroche
-echo "<div class='para'>";
-echo "<br>" . $data['debut-accroche'] . "</br>";
+$html .= "<div class='para'>";
+$html .= "<br>" . $data['debut-accroche'] . "</br>";
 foreach ($data['paragraphe'] as $ligne) {
-    echo "<p>" . $ligne . "</p>";
+    $html .= "<p>" . $ligne . "</p>"; 
 }
-echo "</div>";
+$html .= "</div>";
+echo $html
 ?>
-
