@@ -35,6 +35,7 @@ nav ul li a {
     display: block;
     padding: 10px;
     color: #ffffff;
+    white-space: nowrap;
 }
 
 .menu-nav {
@@ -83,7 +84,6 @@ section {
     padding-top: 140px;
     height: 100vh;
 }
-
 
 .position {
     display: flex;
