@@ -46,7 +46,20 @@ nav ul li a {
     padding: 2rem;
 }
 
-/*___________________________________________*/
+/* image */
+
+.etoile {
+    width: 35px; /* Définir la largeur souhaitée */
+    height: auto; /* Garder le rapport hauteur/largeur d'origine */
+    margin-right: 5px; /* Ajouter une marge entre les étoiles (ajustez selon vos besoins) */   
+}
+
+.photo {
+    width: 200px;
+    height: auto;
+}
+
+/*___________________________________________________*/
 
 .para {
     margin-top: 1em;
@@ -72,11 +85,7 @@ section {
     height: 100vh;
 }
 
-.etoile {
-    width: 35px; /* Définir la largeur souhaitée */
-    height: auto; /* Garder le rapport hauteur/largeur d'origine */
-    margin-right: 5px; /* Ajouter une marge entre les étoiles (ajustez selon vos besoins) */   
-}
+
 
 .position {
     display: flex;

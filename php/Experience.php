@@ -9,7 +9,7 @@ $experience = $data['Experience'];
 $cvLink = $data['CV'];
 // Affichage des données
 echo "<h1>Expérience</h1>";
-echo '<div class="para"><ul class="ulexperience" >';
+echo "<div class='para'><ul>";
 foreach ($experience as $item) {
   echo "<li>";
   echo "<strong>" . $item['title'] . "</strong><br>";
