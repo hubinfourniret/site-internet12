@@ -15,8 +15,8 @@ echo "<h1>" . $title . "</h1>";
 
 // Affichage de l'accroche
 echo "<div class='para'>";
-foreach ($accroche as $pflkmfdlmgkmdflgkm) {
-    echo "<p>" . $pflkmfdlmgkmdflgkm . "</p><br>";
+foreach ($accroche as $paragraphe) {
+    echo "<p>" . $paragraphe . "</p><br>";
 }
 echo "</div>";
 ?>
