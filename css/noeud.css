@@ -82,3 +82,7 @@ nav ul li a {
     justify-content: space-between;
     width: 400px; 
 }
+
+.alinéa {
+    margin-left: 1vh
+}
