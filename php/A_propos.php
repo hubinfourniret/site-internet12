@@ -14,10 +14,10 @@ $accroche = $data['accroche'];
 echo "<h1>" . $title . "</h1>";
 
 // Affichage de l'accroche
-echo "<div class='para'>";
+echo "<div class='para'><p>";
 foreach ($accroche as $paragraphe) {
-    echo "<p>" . $paragraphe . "</p><br>";
+    echo . $paragraphe . "<br>";
 }
-echo "</div>";
+echo "</p></div>";
 ?>
 
