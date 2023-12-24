@@ -18,6 +18,7 @@ div a {
 }
 
 .main-header {
+    min-height: 10vh;
     background: #000;
     position: fixed;
     top: 0;
@@ -57,7 +58,6 @@ section {
 }
 
 .menu-nav {
-    min-height: 10vh;
     display: flex;
     align-items: center;
     width: 90%;
