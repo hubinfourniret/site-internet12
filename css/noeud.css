@@ -13,9 +13,6 @@ div a {
     color: #000;
 }
 
-section {
-    padding-top: 20vh;
-}
 .listeexperience {
     margin-left: 1em;
 }
@@ -48,7 +45,8 @@ a.main {
 }
 
 section {
-    height: 100vh;
+    padding-top: 20vh;
+    height: 80vh;
 }
 
 .menu-ul {
@@ -74,7 +72,7 @@ nav ul li a {
 }
 
 .etoile {
-    width: 20px; /* Définir la largeur souhaitée */
+    width: 35px; /* Définir la largeur souhaitée */
     height: auto; /* Garder le rapport hauteur/largeur d'origine */
     margin-right: 5px; /* Ajouter une marge entre les étoiles (ajustez selon vos besoins) */   
 }
@@ -82,5 +80,5 @@ nav ul li a {
 .position {
     display: flex;
     justify-content: space-between;
-    width: 300px; 
+    width: 400px; 
 }
