@@ -13,9 +13,9 @@ div a {
     color: #000;
 }
 
-.listeexperience {
-    margin-left: 1em;
-}
+
+/*menu navigation*/
+
 
 .main-header {
     background: #000;
@@ -24,6 +24,29 @@ div a {
     width: 100%;
     height: 43px;
 }
+
+.menu-ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.menu-nav {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+
+/*___________________________________________*/
 
 .para {
     margin-top: 1em;
@@ -47,27 +70,6 @@ a.main {
 section {
     padding-top: 20vh;
     height: 100vh;
-}
-
-.menu-ul {
-    display: flex;
-    flex: 1 1 40rem;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.menu-nav {
-    display: flex;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-    padding: 2rem;
-}
-
-nav ul li a {
-    display: block;
-    padding: 10px;
-    color: #ffffff;
 }
 
 .etoile {
