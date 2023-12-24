@@ -14,7 +14,7 @@ $html = "<h1>" . $data['title'] . "</h1>";
 //}
 $html .= "<div class='para'>";
 $html .= "<p>" . $data['paragraphe'][0] . "</p><br>";
-$html .= "<p>" . $data['paragraphe'][1] . "</p>";
+$html .= "<p>" . $data['paragraphe'][1] . "</p><br>";
 $html .= "<p>" . $data['paragraphe'][2] . "</p>";
 $html .= "<p>" . $data['paragraphe'][3] . "</p>";
 $html .= "<p>" . $data['paragraphe'][4] . "</p>";
