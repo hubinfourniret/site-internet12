@@ -11,7 +11,7 @@
             <nav class="menu-nav" role="navigation">
                 <ul class="menu-ul">
                     <li><a href="#Accueil">Accueil</a></li>
-                    <li><a href="#A_propos">A propos</a></li>
+                    <li><a href="#A_propos">À propos</a></li>
                     <li><a href="#Competences">Compétences</a></li>
                     <li><a href="#Experience">Expérience</a></li>
                     <li><a href="#Formation">Formation</a></li>
