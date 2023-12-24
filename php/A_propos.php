@@ -5,7 +5,7 @@ use Symfony\Component\Yaml\Yaml;
 $data = Yaml::parseFile('./../YAML/A_propos.yaml');
 
 // Affichage des données
-$html .= "<h1>" . $data['title'] . "</h1>";
+$html = "<h1>" . $data['title'] . "</h1>";
 
 // Affichage de l'accroche
 $html .= "<div class='para'>";
