@@ -84,7 +84,9 @@ section {
     height: 100vh;
 }
 
-
+#Accueil {
+    top: 0;
+}
 
 .position {
     display: flex;
