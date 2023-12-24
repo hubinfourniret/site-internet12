@@ -7,7 +7,7 @@ $data = Yaml::parseFile('./../YAML/Competences.yaml');
 
 // HTML généré avec les données YAML
 
-$star = "./../image/star.png";
+$star .= "./../image/star.png";
 $star_vide = "./../image/star_vide.png";
 $html .= "<h1>" . 'Compétence'. "</h1>";
 $html .= "<div class='content'>";
