@@ -9,10 +9,11 @@ $html = "<h1>" . $data['title'] . "</h1>";
 
 // Affichage de l'accroche
 $html .= "<div class='para'>";
-$html .= "<p>" . $data['debut-accroche'] . "</p><br>";
-foreach ($data['paragraphe'] as $ligne) {
-    $html .= "<p>" . $ligne . "</p>"; 
-}
+//$html .= "<p>" . $data['debut-accroche'] . "</p><br>";
+//foreach ($data['paragraphe'] as $ligne) {
+//    $html .= "<p>" . $ligne . "</p>"; 
+//}
+echo "<p>" . $data['paragraphe'][2]
 $html .= "</div>";
 echo $html
 ?>
