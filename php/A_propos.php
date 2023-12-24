@@ -12,7 +12,7 @@ $accroche = $data['accroche'];
 
 // Affichage des données
 echo "<h1>" . $title . "</h1>";
-echo "<br><p>" . $data['bien'] . "</p></br>";
+echo "<br>" . $data['bien'] . "</br>";
 
 // Affichage de l'accroche
 echo "<div class='para'>";
