@@ -6,16 +6,15 @@ $data = Yaml::parseFile('./../YAML/A_propos.yaml');
 
 // Accès aux données
 $experience = $data['A_propos'];
-
 $title = $data['title'];
 $accroche = $data['accroche'];
 
 // Affichage des données
 echo "<h1>" . $title . "</h1>";
-echo "<br>" . $data['bien'] . "</br>";
 
 // Affichage de l'accroche
 echo "<div class='para'>";
+echo "<br>" . $data['bien'] . "</br>";
 foreach ($accroche as $paragraphe) {
     echo "<p>" . $paragraphe . "</p>";
 }
