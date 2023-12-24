@@ -20,6 +20,7 @@
             </nav>
         </header>
         <main>
+            <?php echo $html ?>
             <section id="Accueil">
                 <?php require("Accueil.php");?>
             </section>
@@ -35,7 +36,7 @@
             <section id="Formation">
                 <?php require("Formation.php");?>
             </section>
-            <?php echo $html ?> 
+            
         </main>
     </body>
 </html>
