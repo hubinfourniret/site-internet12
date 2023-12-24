@@ -20,7 +20,6 @@
             </nav>
         </header>
         <main>
-            <?php echo $html ?>
             <section id="Accueil">
                 <?php require("Accueil.php");?>
             </section>
