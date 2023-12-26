@@ -35,7 +35,6 @@
             <section id="Formation">
                 <?php require("Formation.php");?>
             </section>
-            
         </main>
     </body>
 </html>

@@ -5,32 +5,22 @@ use Symfony\Component\Yaml\Yaml;
 $data = Yaml::parseFile('./../YAML/A_propos.yaml');
 
 // Affichage des données
-$html = "<h1>" . $data['title'] . "</h1>";
+echo "<h1>" . $data['title'] . "</h1>";
 
 // Affichage de l'accroche
 //$html .= "<p>" . $data['debut-accroche'] . "</p><br>";
 //foreach ($data['paragraphe'] as $ligne) {
 //    $html .= "<p>" . $ligne . "</p>"; 
 //}
-$html .= "<div class='para'>";
-$html .= "<p>" . $data['paragraphe'][0] . "</p><br>";
-$html .= "<p class='alinéa'>" . $data['paragraphe'][1] . "</p><br>";
-$html .= "<p class='alinéa'>" . $data['paragraphe'][2] . "</p>";
-$html .= "<p>" . $data['paragraphe'][3] . "</p>";
-$html .= "<p>" . $data['paragraphe'][4] . "</p>";
-$html .= "<p>" . $data['paragraphe'][5] . "</p><br>";
-$html .= "<p class='alinéa'>" . $data['paragraphe'][6] . "</p>";
-$html .= "<p>" . $data['paragraphe'][7] . "</p><br>";
-$html .= "<p class='alinéa'>" . $data['paragraphe'][8] . "</p>";
-$html .= "</div>";
-echo $html
+echo "<div class='para'>";
+echo "<p>" . $data['paragraphe'][0] . "</p><br>";
+echo "<p class='alinéa'>" . $data['paragraphe'][1] . "</p><br>";
+echo "<p class='alinéa'>" . $data['paragraphe'][2] . "</p>";
+echo "<p>" . $data['paragraphe'][3] . "</p>";
+echo "<p>" . $data['paragraphe'][4] . "</p>";
+echo "<p>" . $data['paragraphe'][5] . "</p><br>";
+echo "<p class='alinéa'>" . $data['paragraphe'][6] . "</p>";
+echo "<p>" . $data['paragraphe'][7] . "</p><br>";
+echo "<p class='alinéa'>" . $data['paragraphe'][8] . "</p>";
+echo "</div>";
 ?>
-
-
-
-
-
-
-
-
-

@@ -11,13 +11,13 @@ $experience = $data['Formation'];
 $cvLink = $data['CV'];
 
 // Affichage des données
-$html .= "<h1>Formation</h1>";
-$html .= "<div class='para'><ul>";
+echo "<h1>Formation</h1>";
+echo "<div class='para'><ul>";
 foreach ($experience as $item) {
-  $html .= "<li>";
-  $html .= $item['title']."<br>";
-  $html .= "</li>";
+  echo "<li>";
+  echo $item['title']."<br>";
+  echo "</li>";
 }
-$html .= "</ul>";
-$html .= "<a href='$cvLink'>Lien vers mon CV</a></div>";
+echo "</ul>";
+echo "<a href='$cvLink'>Lien vers mon CV</a></div>";
 ?>
